@@ -19,6 +19,11 @@
 
 > Some usage instructions
 
+## CRUD API
+
+routes for GET, POST, PUT & DELETE
+
+
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
