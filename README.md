@@ -19,6 +19,22 @@
 
 > Some usage instructions
 
+## CRUD API
+
+### Create
+ #### Adds a new restaurant to the database
+ - POST - /api/sidebar/restaurants
+### Read
+ #### Retrieves a Restaurant from the database, given its name or ID
+ - GET - /api/sidebar/restaurants/:nameOrID
+### Update
+ #### Updates a restaurant, given its name or ID
+ - PUT - /api/sidebar/restaurants/:nameOrID
+### Delete
+ #### Deletes a restaurant from the database, given its name or ID
+ - DELETE - /api/sidebar/restaurants/:nameOrID
+
+
 ## Requirements
 
 An `nvmrc` file is included if using [nvm](https://github.com/creationix/nvm).
